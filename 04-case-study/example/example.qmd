@@ -1,18 +1,19 @@
 ---
 title: Filters and Shortcodes
-format: 
-  revealjs:
-    partials:
-      - title-slide.html
-  html: default
 author: 
   - Charlotte Wickham
   - Mine Çetinkaya-Rundel
 date: 2025-09-16
 footer: Something
+discord: https://discord.com/channels/1381993558437007490/1402378670642827484
+format: 
+  revealjs:
+    partials:
+      - title-slide.html
+  html: default
+css: question.css
 filters:
   - participate.lua
-discord: https://discord.com/channels/1381993558437007490/1402378670642827484
 ---
 
 ## A content slide
