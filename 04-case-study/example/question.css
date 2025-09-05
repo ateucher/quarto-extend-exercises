@@ -1,0 +1,8 @@
+.question, .reveal .slide .question {
+  border-left: 3px solid #6B4140;
+  padding-left: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background: #6B414050;
+}
+

@@ -1,0 +1,1 @@
+This is a final example to illustrate using partials and filters together to create a customized set of notes that render to both slides and a HTML document.

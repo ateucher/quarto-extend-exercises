@@ -1,0 +1,25 @@
+---
+title: Filters and Shortcodes
+format: html
+author: 
+  - Charlotte Wickham
+  - Mine Çetinkaya-Rundel
+date: 2025-09-16
+footer: Something
+filters:
+  - participate.lua
+css: slides.css
+discord: https://discord.gg/quarto
+---
+
+## A content slide
+
+{{< lipsum 1 >}}
+
+## Participate 
+
+::: {.participate}
+What are some use cases for filters?
+:::
+
+
