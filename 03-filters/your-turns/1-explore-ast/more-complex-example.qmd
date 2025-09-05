@@ -1,0 +1,13 @@
+## Introduction to filters
+
+Some notes:
+
+*   You can read more about on the [Lua filters page on the Pandoc documentation site](https://pandoc.org/lua-filters.html).
+
+*   If you are curious, the AST diagram for this example was constructed with:
+    
+    ```bash
+    quarto dev-call make-ast-diagram more-complex-example.qmd ast.html
+    ```
+
+![](https://quarto.org/quarto.png)
