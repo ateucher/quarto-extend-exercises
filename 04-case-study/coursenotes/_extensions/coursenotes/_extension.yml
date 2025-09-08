@@ -1,0 +1,18 @@
+title: Coursenotes
+author: Charlotte Wickham
+version: 1.0.0
+quarto-required: ">=99.9.0"
+contributes:
+  formats:
+    common:
+      css: question.css
+      filters:
+        - participate.lua
+      format-resources:
+        - Discord-Logo-Black.png
+    revealjs:
+      partials:
+        - title-slide.html
+    html: default
+  filters:
+    - participate.lua
