@@ -1,7 +1,7 @@
 ---
 title: Filters and Shortcodes
 subtitle: Extending Quarto workshop
-format: clean-revealjs
+format: revealjs
 author: Charlotte Wickham
 date: last-modified
 ---
