@@ -1,0 +1,13 @@
+---
+title: "Filter Basics"
+filters:
+  - shout.lua
+---
+
+::: {.shout}
+And sometimes I **really** need to shout!
+
+```r
+library(scream)
+```
+:::
