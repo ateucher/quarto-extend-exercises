@@ -1,6 +1,4 @@
-* ? Add the `title-slide` partial from eariler
-
-* Write the `participate.lua` filter to combine the content of the question with boilerplate text: 
+Write the `participate.lua` filter to combine the content of the question in the div with class `.participate` with boilerplate text: 
 
 ```markdown
 Answer in our Discord!
@@ -8,13 +6,11 @@ Answer in our Discord!
 
 Your slide should look like this:
 
-![]()
+![](example-slide.png)
 
 Hints:
 
-* You should return a `pandoc.Blocks()` object with two elements: a `pandoc.Div` for the question content  and a `pandoc.Para` for the boilerplate text. 
+* Recall the useful pattern: create an empty `pandoc.Blocks()`, `insert` `Block`s, `extend` with `Blocks`.
 
-* `pandoc.Para` expects an `Inline` or `Inlines`. 
-
-* `pandoc.Str` can take a string with spaces. 
+* You can pass `pandoc.Str()` a string with spaces. 
 

@@ -1,3 +1,7 @@
+Take a look at this version of `participate.lua`.
+
+With your neighbor, predict what the "Participate" slide will look like.
+
 ```lua
 Div = function(el)
   if not el.classes:includes("participate") then
@@ -31,5 +35,4 @@ Div = function(el)
 end
 ```
 
-Predict what the slide will look like.
 
