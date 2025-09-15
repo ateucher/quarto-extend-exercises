@@ -11,7 +11,7 @@ contributes:
       format-resources:
         - Discord-Logo-Black.png
     revealjs:
-      partials:
+      template-partials:
         - title-slide.html
     html: default
   filters:
