@@ -6,11 +6,9 @@ $endif$
 $if(date)$
 <h3 class="date">$date$</h3>
 $endif$
-<!-- begin: venue -->
 $if(venue)$
 <h4>$venue$</h4>
 $endif$
-<!-- end: venue -->
 <div class="quarto-title-authors">
    $for(by-author)$
    <div class="quarto-title-author">
@@ -24,29 +22,18 @@ $endif$
          $endif$
       </div>
       $if(by-author.affiliations)$
-      <div class="quarto-title-author-affiliation">
-         $for(by-author.affiliations)$
-         $if(it.url)$
-         <a href="$it.url$">
-         $endif$
-         $it.name$
-         $if(it.url)$
-         </a>$endif$
-         $sep$+
-         $endfor$
-      </div>
+          $for(by-author.affiliations)$
+          <p class="quarto-title-affiliation">
+            $if(it.url)$
+            <a href="$it.url$">
+            $endif$
+            $it.name$
+            $if(it.url)$
+            </a>
+            $endif$
+          </p>
+          $endfor$
       $endif$
-      <!-- begin: author.url -->
-      $if(by-author.url)$
-      <div class="quarto-title-author-url">
-         <a href="https://$by-author.url$">
-            <!-- https://icon-sets.iconify.design/line-md/?icon-filter=home -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-opacity="0" d="M10 13h4v8h-4Z"><animate fill="freeze" attributeName="fill-opacity" begin="1.1s" dur="0.15s" values="0;0.3"/></path><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="16" stroke-dashoffset="16" d="M4.5 21.5h15"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="16;0"/></path><path stroke-dasharray="16" stroke-dashoffset="16" d="M4.5 21.5v-13.5M19.5 21.5v-13.5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.2s" dur="0.2s" values="16;0"/></path><path stroke-dasharray="28" stroke-dashoffset="28" d="M2 10l10 -8l10 8"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.4s" values="28;0"/></path><path stroke-dasharray="24" stroke-dashoffset="24" d="M9.5 21.5v-9h5v9"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.4s" values="24;0"/></path></g></svg>
-            $by-author.url$
-         </a>
-      </div>
-      $endif$
-      <!-- begin: author.url -->
       $if(by-author.email)$
       <div class="quarto-title-author-email">
          <a href="mailto:$by-author.email$">
