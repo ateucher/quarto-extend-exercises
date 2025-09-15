@@ -1,3 +1,3 @@
-Emph = function(el)
+Strong = function(el)
   return el.content
 end

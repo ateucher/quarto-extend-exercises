@@ -1,0 +1,16 @@
+---
+title: Filters and Shortcodes
+subtitle: Extending Quarto workshop
+format: revealjs
+author: Charlotte Wickham
+date: last-modified
+---
+
+## What is a filter?
+
+### Don't worry you'll learn about them later
+
+Filters are written in the programming language [Lua](https://www.lua.org/).
+
+[This is just an example slide deck]{.alert}.
+

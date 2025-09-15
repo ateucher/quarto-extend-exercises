@@ -1,0 +1,6 @@
+---
+shortcodes:
+  - hello.lua
+---
+
+{{< hello >}}

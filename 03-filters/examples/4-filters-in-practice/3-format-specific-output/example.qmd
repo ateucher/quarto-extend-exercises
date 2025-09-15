@@ -1,0 +1,17 @@
+---
+title: "Format-Specific Output"
+format:
+  pdf:
+    include-in-header: shout.tex
+  html: default
+filters:
+  - shout.lua
+---
+
+::: {.shout}
+And sometimes I **really** need to shout!
+
+```r
+library(scream)
+```
+:::

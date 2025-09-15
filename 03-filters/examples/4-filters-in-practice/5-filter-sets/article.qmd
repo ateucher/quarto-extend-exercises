@@ -1,0 +1,21 @@
+---
+author:
+  - name: Mine Çetinkaya-Rundel
+    orcid: 0000-0001-6452-2420
+    email: mine@posit.co
+    affiliations:
+      - name: Duke University
+      - name: Posit, PBC
+  - name: Charlotte Wickham
+    orcid: 0000-0002-6365-5499
+    email: charlotte.wickham@posit.co
+    affiliation:
+      - name: Posit, PBC
+filters:
+  - meta.lua
+---
+
+## Introduction
+
+::: {#dump-meta}
+:::

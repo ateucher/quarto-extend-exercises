@@ -1,3 +1,3 @@
 Strong = function(el)
-  return nil
+  return {}
 end
