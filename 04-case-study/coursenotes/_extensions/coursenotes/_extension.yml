@@ -11,8 +11,27 @@ contributes:
       format-resources:
         - Discord-Logo-Black.png
     revealjs:
+      theme: slides.scss
       template-partials:
         - title-slide.html
+      include-after-body: 
+        text: |
+          <!-- for removing footer on title slide -->
+          <!-- https://github.com/quarto-dev/quarto-cli/issues/1391#issuecomment-1187191024 -->
+          <script type="text/javascript">
+            Reveal.on( 'ready', event => {
+              // remove footer when prez start on first slide
+              if (event.indexh === 0) {
+                document.querySelector("div.footer").style.display = "none";
+              }
+            })
+            Reveal.addEventListener('slidechanged', (event) => {
+              // Aslo remove footer when prez start go back to first slide
+              if (event.indexh === 0) {
+                document.querySelector("div.footer").style.display = "none";
+              }
+            });
+          </script>
     html: default
   filters:
     - participate.lua
