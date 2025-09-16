@@ -1,5 +1,6 @@
 ---
 title: Filters and Shortcodes
+subtitle: A quick overview
 format: revealjs
 author: 
   - Charlotte Wickham
