@@ -1,3 +1,5 @@
+# Add a filter
+
 Write the `participate.lua` filter to combine the content of the question in the div with class `.participate` with boilerplate text: 
 
 ```markdown

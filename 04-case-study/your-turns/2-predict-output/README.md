@@ -1,3 +1,5 @@
+# Predict the output
+
 Take a look at this version of `participate.lua`.
 
 With your neighbor, predict what the "Participate" slide will look like.
