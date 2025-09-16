@@ -1,4 +1,4 @@
-# Step 6: Move footer + add horizontal line
+# Example 4: Move footer + add horizontal line
 
 - Remove the link to slides from the footer (using `include-after-body`) and use that field in the partial to be displayed below the venue.
 
@@ -6,4 +6,4 @@
 
 - Add a horizontal line below the slide URL.
 
-![](6-hr-footer.png)
+![](4-hr-footer.png)

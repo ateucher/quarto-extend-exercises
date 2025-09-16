@@ -1,4 +1,4 @@
-# Step 5: Style
+# Your turn 6: Style
 
 Make the title slide match the screenshot in below.
 
@@ -9,4 +9,4 @@ Specifically:
 - Adjust font sizes of various fields: date, affiliation, author URL, GitHub username, and email are smaller.
 - Adjust font colors: subtitle and affiliations are gray.
 
-![](7-style.png)
+![](6-style.png)

@@ -1,4 +1,4 @@
-# Step 1: Modify date and author email
+# Example 2: Modify date and author email
 
 - Move date to under the subtitle and format it as a 3rd level heading `h3`.
 
