@@ -1,0 +1,24 @@
+---
+title: Filters and Shortcodes
+subtitle: A quick overview
+format: revealjs
+author: 
+  - Charlotte Wickham
+  - Mine Çetinkaya-Rundel
+date: 2025-09-16
+footer: "Materials: [pos.it/quarto-extend-conf25](http://pos.it/quarto-extend-conf25)"
+discord: https://discord.gg/quarto
+filters:
+  - participate.lua
+css: question.css
+---
+
+## A content slide
+
+{{< lipsum 1 >}}
+
+## Participate 
+
+::: {.participate}
+What are some use cases for filters?
+:::
