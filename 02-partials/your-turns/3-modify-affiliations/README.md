@@ -2,4 +2,4 @@
 
 Display multiple affiliations on the same line, separated by `+`.
 
-![](2-modify-affiliations.png)
+![](3-modify-affiliations.png)

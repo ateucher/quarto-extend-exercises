@@ -1,6 +1,6 @@
 ---
-title: "The Best Title Ever"
-subtitle: "and a mediocre subtitle"
+title: The Best Title Ever
+subtitle: and a mediocre subtitle
 author:
   - name: Mine Çetinkaya-Rundel
     url: mine-cr.com
@@ -15,9 +15,9 @@ author:
     email: charlotte@posit.co
     affiliation:
       - name: Posit, PBC
-date: "2025-09-16"
+date: 2025-09-16
 date-format: medium
-venue: "posit::conf(2025)"
+venue: "posit::conf(2025)" # venue
 footer: "[pos.it/quarto-extend-conf25](https://pos.it/quarto-extend-conf25)"
 format: 
   revealjs:

@@ -9,5 +9,4 @@ Specifically:
 - Adjust font sizes of various fields: date, affiliation, author URL, GitHub username, and email are smaller.
 - Adjust font colors: subtitle and affiliations are gray.
 
-
-![](5-style.png)
+![](7-style.png)
