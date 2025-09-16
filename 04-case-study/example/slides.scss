@@ -1,0 +1,41 @@
+/* refer to https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/revealjs/pandoc/title-fancy/title-slide.scss */
+
+/*-- scss:defaults --*/
+
+// import fonts
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+// set defaults
+$font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
+$link-color: #005871;
+
+/*-- scss:rules --*/
+
+// small caps for title
+.reveal #title-slide .title {
+  font-variant: small-caps;
+}
+
+// handwriting font for subtitle
+.reveal #title-slide .subtitle {
+  color: #7f7f7f;
+  font-family: 'Gochi Hand', cursive;
+}
+
+// smaller font size for date
+.reveal #title-slide .date {
+  font-size: 0.8em;
+}
+
+// smaller font size + gray color for affiliations
+.reveal #title-slide .quarto-title-author-affiliation {
+  font-size: 0.8em;
+  color: #656565;
+}
+
+// smaller font size for url and socials
+.reveal #title-slide .quarto-title-author-url, .quarto-title-author-github, .quarto-title-author-email {
+  font-size: 0.7em !important;
+}
+

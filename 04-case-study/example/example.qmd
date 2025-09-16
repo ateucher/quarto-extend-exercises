@@ -1,5 +1,6 @@
 ---
-title: Filters and Shortcodes
+title: The Best Title Ever
+subtitle: and a mediocre subtitle
 author:
   - name: Mine Çetinkaya-Rundel
     url: mine-cr.com
@@ -16,7 +17,7 @@ author:
     email: charlotte@posit.co
     affiliation:
       - name: Posit, PBC
-date: "2025-09-16"
+date: 2025-09-16
 date-format: medium
 venue: "posit::conf(2025)"
 footer: "[pos.it/quarto-extend-conf25](https://pos.it/quarto-extend-conf25)"
@@ -25,6 +26,25 @@ format:
   revealjs:
     template-partials:
       - title-slide.html
+    theme: slides.scss
+    include-after-body: 
+      text: |
+        <!-- for removing footer on title slide -->
+        <!-- https://github.com/quarto-dev/quarto-cli/issues/1391#issuecomment-1187191024 -->
+        <script type="text/javascript">
+          Reveal.on( 'ready', event => {
+            // remove footer when prez start on first slide
+            if (event.indexh === 0) {
+              document.querySelector("div.footer").style.display = "none";
+            }
+          })
+          Reveal.addEventListener('slidechanged', (event) => {
+            // Aslo remove footer when prez start go back to first slide
+            if (event.indexh === 0) {
+              document.querySelector("div.footer").style.display = "none";
+            }
+          });
+        </script>
   html: default
 css: question.css
 filters:
