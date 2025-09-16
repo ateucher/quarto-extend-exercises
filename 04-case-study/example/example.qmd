@@ -1,6 +1,6 @@
 ---
-title: The Best Title Ever
-subtitle: and a mediocre subtitle
+title: Filters and Shortcodes
+subtitle: A hands-on overview
 author:
   - name: Mine Çetinkaya-Rundel
     url: mine-cr.com
