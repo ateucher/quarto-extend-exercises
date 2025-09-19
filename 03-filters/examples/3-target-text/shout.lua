@@ -1,4 +1,7 @@
 Span = function(el)
-  quarto.log.output(el.classes)
-  return nil
+  if not el.classes:includes("shout") then
+    return nil
+  end
+  quarto.log.output("Shouting")
+  return pandoc.SmallCaps(el.content)
 end

@@ -27,8 +27,8 @@ $endif$
          $endif$
       </div>
       $if(by-author.affiliations)$
+      <p class="quarto-title-affiliation">
           $for(by-author.affiliations)$
-          <p class="quarto-title-affiliation">
             $if(it.url)$
             <a href="$it.url$">
             $endif$
@@ -36,8 +36,9 @@ $endif$
             $if(it.url)$
             </a>
             $endif$
-          </p>
-          $endfor$
+            $sep$+
+            $endfor$
+         </p>
       $endif$
       $if(by-author.email)$
       <div class="quarto-title-author-email">

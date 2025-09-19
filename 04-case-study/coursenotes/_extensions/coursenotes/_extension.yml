@@ -33,5 +33,3 @@ contributes:
             });
           </script>
     html: default
-  filters:
-    - participate.lua

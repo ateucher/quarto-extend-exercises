@@ -15,3 +15,23 @@ Some notes:
     ```
 
 ![](https://quarto.org/quarto.png)
+
+Answers:
+
+- Other types of block nodes:
+    - Meta
+    - Header
+    - BulletList
+    - title
+    - Code Block
+- Inline nodes: link, image, Str, Space
+- If we wrote a filter for Para, how many times would it be called?
+    - 4
+
+If we wrote a filter for Str, which of the following would be affected?
+
+- [x] The text Filter in the title
+- [x] The text Introduction in the heading
+- [x] The text Lua in the link text
+- [ ] The text lua-filters in the link URL
+- [ ] the text quarto in the code block

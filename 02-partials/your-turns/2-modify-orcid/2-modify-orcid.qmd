@@ -21,7 +21,7 @@ footer: "[pos.it/quarto-extend-conf25](https://pos.it/quarto-extend-conf25)"
 format: 
   revealjs:
     template-partials: 
-      - title-slide.html
+      - partials/title-slide.html
 ---
 
 # Part 1

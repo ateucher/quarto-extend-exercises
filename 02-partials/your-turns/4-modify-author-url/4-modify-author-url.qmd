@@ -3,14 +3,14 @@ title: The Best Title Ever
 subtitle: and a mediocre subtitle
 author:
   - name: Mine Çetinkaya-Rundel
-    url: https://mine-cr.com
+    url: mine-cr.com
     orcid: 0000-0001-6452-2420
-    email: mine@posit.co
+    # email: mine@posit.co
     affiliations:
       - name: Duke University
       - name: Posit, PBC
   - name: Charlotte Wickham
-    url: https://cwick.co.nz
+    url: cwick.co.nz
     orcid: 0000-0002-6365-5499
     email: charlotte@posit.co
     affiliation:
