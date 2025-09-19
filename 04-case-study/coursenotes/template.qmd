@@ -47,4 +47,3 @@ What are some use cases for filters?
 ::: {.participate}
 What are some use cases for partials?
 :::
-

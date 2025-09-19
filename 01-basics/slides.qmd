@@ -1,7 +1,7 @@
 ---
 title: Filters and Shortcodes
 subtitle: Extending Quarto workshop
-format: revealjs
+format: clean-html
 author: Charlotte Wickham
 date: last-modified
 ---
@@ -13,4 +13,3 @@ date: last-modified
 Filters are written in the programming language [Lua](https://www.lua.org/).
 
 [This is just an example slide deck]{.alert}.
-

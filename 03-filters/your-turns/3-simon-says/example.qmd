@@ -4,9 +4,8 @@ filters:
   - says.lua
 ---
 
-1. [Write a filter]{.says}
+1. [Write a filter]{.says name="Andy"}
 
 2. [Apply it to `example.qmd`]{.says}
 
 3. [Delete all your work]{.underline}
-

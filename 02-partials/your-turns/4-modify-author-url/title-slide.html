@@ -10,18 +10,12 @@ $endif$
    $for(by-author)$
    <div class="quarto-title-author">
       <div class="quarto-title-author-name">
-      $if(by-author.url)$
-         <a href="$by-author.url$">
-      $endif$
+   
       $if(by-author.name.literal)$
-        $by-author.name.literal$
+         $by-author.name.literal$
       $endif$
-      $if(by-author.url)$
-        </a>
-      $endif$ 
       $if(by-author.orcid)$
          <a href="https://orcid.org/$by-author.orcid$">
-            <!-- https://icon-sets.iconify.design/simple-icons/?icon-filter=orcid -->
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12s12-5.372 12-12S18.628 0 12 0M7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947m-.722 3.038h1.444v10.041H6.647zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025c0 2.578-2.016 5.025-5.325 5.025h-3.919zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722c0-2.016-1.284-3.722-4.097-3.722z"/></svg>
          </a>
          $endif$
@@ -37,6 +31,14 @@ $endif$
          </a>$endif$
          $sep$+
          $endfor$
+      </div>
+      $endif$
+      $if(by-author.url)$
+      <div class="quarto-title-author-url">
+      <a href="https://$by-author.url$">
+         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-opacity="0" d="M5 8.5l7 -5.5l7 5.5v12.5h-4v-8l-1 -1h-4l-1 1v8h-4v-12.5Z"><animate fill="freeze" attributeName="fill-opacity" begin="1.1s" dur="0.15s" values="0;0.3"/></path><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="16" stroke-dashoffset="16" d="M4.5 21.5h15"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="16;0"/></path><path stroke-dasharray="16" stroke-dashoffset="16" d="M4.5 21.5v-13.5M19.5 21.5v-13.5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.2s" dur="0.2s" values="16;0"/></path><path stroke-dasharray="28" stroke-dashoffset="28" d="M2 10l10 -8l10 8"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.4s" values="28;0"/></path><path stroke-dasharray="24" stroke-dashoffset="24" d="M9.5 21.5v-9h5v9"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.4s" values="24;0"/></path></g></svg>
+         $by-author.url$
+      </a>
       </div>
       $endif$
       $if(by-author.email)$
